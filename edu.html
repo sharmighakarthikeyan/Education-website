@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university  website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kablammo&family=Open+Sans:ital,wght@0,300;0,400;0,800;1,500;1,600;1,800&family=Poppins:ital,wght@0,100;0,200;0,800;1,400;1,800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="edu.css">
+</head>
+<body>
+    <section class="header">
+        <a name="homes"></a>
+         <nav>
+            <a href="edu.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#homes">HOME</a></li>
+                    <li><a href="#courses">COURSE</a></li>
+                    <li><a href="#campuss">CAMPUS</a></li>
+                    <li><a href="#facilitys">FACILITY</a></li>
+                  
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+         </nav>
+    <div class="text-box">
+        <h1> World Biggest University</h1>
+        <p>Making website is now one of the easiest thing in the world.you just need to learn html,css, <br>javascript and you are good to go.</p>
+        <a href="#" class="hero-btn">Visit us to know more details</a>
+    </div>     
+
+         
+    </section>
+
+     <!-----course------>
+
+     <section class="course">
+        <a name="courses"></a>
+        <h1>Course We Offer</h1>
+        <p>Html css javascript usefull courses for web development</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+             <p>The common question among the generation of students studying in 12th standard. Every year the questions hit lakhs of students in India and abroad.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+             <p>The common question among the generation of students studying in 12th standard. Every year the questions hit lakhs of students in India and abroad.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post graduation</h3>
+             <p>The common question among the generation of students studying in 12th standard. Every year the questions hit lakhs of students in India and abroad.</p>
+            </div>
+
+        </div>
+
+     </section>
+
+
+  <!-----campus------>
+
+     <section class="campus">
+        <a name="campuss"></a>
+        <h1>Our Global Campus</h1>
+        <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants<br>(plants of the division Angiospermae). Flowers produce gametophytes, which in flowering plants consist of a few haploid cells which produce gametes.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="eduford_img/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+          
+
+            <div class="campus-col">
+                <img src="eduford_img/newyork.png" >
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+
+
+   <!-----facility----->
+
+
+<section class="facility">
+    <a name="facilitys"></a>
+    <h1>our facility</h1>
+    <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants<br>(plants of the division Angiospermae). </p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png">
+            <h3>library</h3>
+            <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants </p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png">
+            <h3>library</h3>
+            <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants </p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>library</h3>
+            <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+   <!-----javascript for toggle menu------>
+    <script>
+        var a=document.getElementById("navLinks");
+
+        function showmenu()
+        {
+           a.style.right="0";
+        }
+        function hidemenu()
+        {
+           a.style.right="-500px";
+        }
+    </script>
+</body>
+</html>
